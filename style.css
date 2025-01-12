@@ -1,0 +1,43 @@
+body{
+    margin: 10px;
+    padding: 10px;
+}
+.to-do-list{
+    height: 400px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 375px;
+    border-radius: 25px;
+    background-color: blueviolet;
+    color: black;
+    border: 3px solid black;
+    padding: 10px;
+}
+.to-do-list h2 img{
+    height: 35px;
+    width: 45px;
+    border-radius: 25px;
+    margin-bottom: 7px;
+}
+.to-do-list h2{
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: -25px;
+    font-size: 17px;
+}
+ul li span:hover{
+    color: white;
+}
+.completed{
+    text-decoration: line-through;
+}
+#bright{
+    font-size: 25px;
+    margin-left: 200px;
+}
+#bright:hover{
+    color: white;
+}

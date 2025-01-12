@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="../../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="../../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <div class="to-do-list" id="tdl">
+        <h2>TO-DO LIST <img src="/Semester-3/Javascript/To-Do list/images/icon.jpg" alt=""><span class="bi bi-brightness-high" id="bright"></span></h2>
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Enter Your Task" id="input-box">
+            <button class="btn btn-dark" id="add" onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+            <!-- <li class="list-group-item d-flex align-items-center">
+                <span class="bi bi-circle me-2"></span>
+                Task 1
+            </li> -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
