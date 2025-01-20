@@ -40,4 +40,5 @@ ul li span:hover{
 }
 #bright:hover{
     color: white;
+    cursor: pointer;
 }
